@@ -13,4 +13,8 @@ public class Tubo {
     public float getRaggio() {
         return raggio;
     }
+
+    public float getAltezza() {
+        return altezza;
+    }
 }
