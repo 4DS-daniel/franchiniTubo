@@ -17,4 +17,10 @@ public class Tubo {
     public float getAltezza() {
         return altezza;
     }
+
+    public float calcoloBase() {
+        return (float) (Math.PI * raggio * raggio);
+    }
+
+
 }
