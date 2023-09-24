@@ -22,5 +22,9 @@ public class Tubo {
         return (float) (Math.PI * raggio * raggio);
     }
 
+    public float volume() {
+        return calcoloBase()*altezza;
+    }
+
 
 }
