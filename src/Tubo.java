@@ -10,5 +10,7 @@ public class Tubo {
         this.altezza = altezza;
     }
 
-
+    public float getRaggio() {
+        return raggio;
+    }
 }
