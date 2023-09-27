@@ -26,7 +26,7 @@ public class Main {
         int scelta = 0;
         do {
             System.out.println("===========MENÙ===========\n");
-            System.out.print("1) Calcola la base\n2) Calcola il volume\n3) Esci\nScelta: ");
+            System.out.print("1) Calcola la base\n2) Calcola il volume\n3) Imposta l'altezza\n4) Imposta la base\n5) Esci\nScelta: ");
             do {
                 scelta = input.nextInt();
             } while (scelta > 3 || scelta < 1);
@@ -41,6 +41,7 @@ public class Main {
                 case 3:
                     System.out.println("Grazie per aver usato il programma!");
                     break;
+
             }
         } while (scelta != 3);
 
