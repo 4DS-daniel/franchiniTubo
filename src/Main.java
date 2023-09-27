@@ -30,6 +30,7 @@ public class Main {
             do {
                 scelta = input.nextInt();
             } while (scelta > 3 || scelta < 1);
+
             switch (scelta) {
                 case 1:
                     System.out.println("Ecco la base: " + tubo.calcoloBase());
@@ -37,9 +38,10 @@ public class Main {
                 case 2:
                     System.out.println("Ecco il volume: " + tubo.volume());
                     break;
-
+                case 3:
+                    System.out.println("Grazie per aver usato il programma!");
+                    break;
             }
-
         } while (scelta != 3);
 
 
