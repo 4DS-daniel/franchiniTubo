@@ -41,6 +41,7 @@ public class Main {
                 case 3:
                     System.out.print("Imposta l'altezza: ");
                     altezza = input.nextFloat();
+                    tubo.setAltezza(altezza);
                     break;
                 case 4:
                     System.out.print("Imposta il raggio: ");
