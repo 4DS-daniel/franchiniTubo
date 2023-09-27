@@ -46,6 +46,7 @@ public class Main {
                 case 4:
                     System.out.print("Imposta il raggio: ");
                     raggio = input.nextFloat();
+                    tubo.setRaggio(raggio);
                     break;
                 case 5:
                     System.out.println("Grazie per aver usato il programma!");
