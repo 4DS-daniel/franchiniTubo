@@ -38,7 +38,7 @@ public class Main {
                 case 2:
                     System.out.println("Ecco il volume: " + tubo.volume());
                     break;
-                case 3:
+                case 5:
                     System.out.println("Grazie per aver usato il programma!");
                     break;
 
