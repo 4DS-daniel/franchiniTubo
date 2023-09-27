@@ -34,7 +34,9 @@ public class Main {
                 case 1:
                     System.out.println("Ecco la base: " + tubo.calcoloBase());
                     break;
-
+                case 2:
+                    System.out.println("Ecco il volume: " + tubo.volume());
+                    break;
 
             }
 
