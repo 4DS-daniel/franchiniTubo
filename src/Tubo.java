@@ -22,6 +22,10 @@ public class Tubo {
         this.raggio = raggio;
     }
 
+    public void setAltezza(float altezza) {
+        this.altezza = altezza;
+    }
+
     public float calcoloBase() {
         return (float) (Math.PI * raggio * raggio);
     }
