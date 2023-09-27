@@ -29,7 +29,7 @@ public class Main {
             System.out.print("1) Calcola la base\n2) Calcola il volume\n3) Imposta l'altezza\n4) Imposta il raggio\n5) Esci\nScelta: ");
             do {
                 scelta = input.nextInt();
-            } while (scelta > 3 || scelta < 1);
+            } while (scelta > 5 || scelta < 1);
 
             switch (scelta) {
                 case 1:
@@ -41,6 +41,10 @@ public class Main {
                 case 3:
                     System.out.print("Imposta l'altezza: ");
                     altezza = input.nextFloat();
+                    break;
+                case 4:
+                    System.out.print("Imposta il raggio: ");
+                    raggio = input.nextFloat();
                     break;
                 case 5:
                     System.out.println("Grazie per aver usato il programma!");
