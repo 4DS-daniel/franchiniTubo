@@ -23,6 +23,15 @@ public class Main {
         } while (!flag);
 
 
+        int scelta = 0;
+        do {
+            System.out.println("===========MENÙ===========\n");
+            System.out.print("1) Calcola la base\n2) Calcola il volume\n3) Esci\nScelta: ");
+            do {
+                scelta = input.nextInt();
+            } while (scelta > 3 || scelta < 1);
+            
+        } while (scelta != 3);
 
 
 
