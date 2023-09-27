@@ -51,9 +51,8 @@ public class Main {
                 case 5:
                     System.out.println("Grazie per aver usato il programma!");
                     break;
-
             }
-        } while (scelta != 3);
+        } while (scelta != 5);
 
 
 
