@@ -18,6 +18,10 @@ public class Tubo {
         return altezza;
     }
 
+    public void setRaggio(float raggio) {
+        this.raggio = raggio;
+    }
+
     public float calcoloBase() {
         return (float) (Math.PI * raggio * raggio);
     }
